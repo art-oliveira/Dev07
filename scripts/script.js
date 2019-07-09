@@ -77,4 +77,4 @@ function resetVars() {
 
 document.getElementById(action).addEventListener('click',resetVars(greeting, name, message, sign));
 
-document.getElementById(action).addEventListener('click',initiateVars());
+document.getElementById(action).addEventListener('click',preventDefault());
